@@ -1,0 +1,8 @@
+{
+  "name": "crime-intelligence-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdir -p build && cd build && cmake .. && make",
+    "start": "./build/backend"
+  }
+}
